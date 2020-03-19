@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../UT_CONTROL.srcs/sources_1/imports/new/control.vhd" \
+"../../../../UT_CONTROL.srcs/sources_1/imports/new/debouncer.vhd" \
+"../../../../UT_CONTROL.srcs/sources_1/new/holder.vhd" \
+"../../../../UT_CONTROL.srcs/sources_1/new/main.vhd" \
+
+# Do not sort compile order
+nosort
